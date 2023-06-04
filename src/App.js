@@ -2,9 +2,9 @@ import './App.css';
 import Main from "./Pages/Main";
 
 function App() {
-  return (
-      <Main></Main>
-  )
+    return (
+        <Main></Main>
+    )
 }
 
 export default App;

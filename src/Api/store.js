@@ -1,7 +1,6 @@
 import {configureStore} from "@reduxjs/toolkit";
-import playerReducer from './features'
-import shazamCoreApi from '/ShazamCore.'
-import {specialCharMap} from "@testing-library/user-event/dist/keyboard";
+import {shazamCoreApi} from "./ShazamCore.";
+
 export  const store = configureStore({
     reducer:{
         [shazamCoreApi.reducerPath]:shazamCoreApi.reducer,

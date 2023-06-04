@@ -60,6 +60,6 @@ const playerSlice = createSlice({
     },
 });
 
-export const { setActiveSong, nextSong, prevSong, playPause, selectGenreListId } = playerSlice.actions;
+export const { setActiveSong, playPause, } = playerSlice.actions;
 
 export default playerSlice.reducer;
