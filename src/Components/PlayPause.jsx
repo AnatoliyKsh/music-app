@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {FaPauseCircle, FaPlayCircle} from 'react-icons/fa';
 
 const PlayPause = ({
@@ -20,4 +20,5 @@ const PlayPause = ({
         onClick={handlePlay}
     />
 ));
-export default PlayPause
+
+export default PlayPause;
